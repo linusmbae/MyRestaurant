@@ -1,5 +1,7 @@
 package com.linus.myrestaurant;
 
+import com.linus.myrestaurant.models.Restaurant;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

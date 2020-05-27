@@ -1,4 +1,4 @@
-package com.linus.myrestaurant;
+package com.linus.myrestaurant.models;
 
 import java.util.ArrayList;
 

@@ -15,25 +15,38 @@
         android:scaleType="centerCrop"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Restaurants near "
-        android:id="@+id/locationTextView"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/colorTextIcons"
-        android:background="@color/colorAccent"
-        android:layout_marginTop="20dp"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ListView"
+        android:id="@+id/listView"
         android:layout_below="@id/locationTextView"
         android:layout_marginTop="10dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:background="#ce93d8"
-        />
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Restaurants near "
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/errorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorTextIcons"
+        android:layout_margin="16dp"
+        android:visibility="gone" />
 </RelativeLayout>
