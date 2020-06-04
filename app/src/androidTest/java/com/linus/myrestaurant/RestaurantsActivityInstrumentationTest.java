@@ -5,6 +5,8 @@ import android.view.View;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
 
+import com.linus.myrestaurant.ui.RestaurantListActivity;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,8 +24,8 @@ import static org.hamcrest.core.IsNot.not;
 @RunWith(AndroidJUnit4.class)
 public class RestaurantsActivityInstrumentationTest {
     @Rule
-    public ActivityTestRule<RestaurantActivity> activityTestRule=
-            new ActivityTestRule<>(RestaurantActivity.class);
+    public ActivityTestRule<RestaurantListActivity> activityTestRule=
+            new ActivityTestRule<>(RestaurantListActivity.class);
 
     @Test
     public void listItemClickDisplaysToastWithCorrectRestaurant()throws Exception {

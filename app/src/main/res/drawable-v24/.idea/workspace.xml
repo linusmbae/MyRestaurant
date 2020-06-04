@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82a9bc22-91c8-4393-8e44-b21680850f7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/adapters/RestaurantListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/adapters/RestaurantPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/ui/RestaurantDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/ui/RestaurantDetailFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/ui/RestaurantListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_exit_to_app_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_local_phone_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_map_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/waffles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_restaurant_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/fragment_restaurant_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/restaurant_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../androidTest/java/com/linus/myrestaurant/MainActivityInstrumentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../androidTest/java/com/linus/myrestaurant/MainActivityInstrumentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../androidTest/java/com/linus/myrestaurant/RestaurantsActivityInstrumentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../androidTest/java/com/linus/myrestaurant/RestaurantsActivityInstrumentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/ui/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/MyRestaurantsArrayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/adapters/MyRestaurantsArrayAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/RestaurantActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/YelpApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/YelpApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/YelpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/network/YelpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/YelpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/network/YelpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/models/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/linus/myrestaurant/models/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_restaurants.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_restaurants.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/java/com/linus/myrestaurant/MainActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/java/com/linus/myrestaurant/MainActivityTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1cX6yPOD5YWHsXTml5Y2m3yLSiv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Restaurant" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82a9bc22-91c8-4393-8e44-b21680850f7e" name="Default Changelist" comment="" />
+      <created>1590662844943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590662844943</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-package com.linus.myrestaurant;
+package com.linus.myrestaurant.adapters;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;

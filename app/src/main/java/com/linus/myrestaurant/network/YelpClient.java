@@ -1,4 +1,6 @@
-package com.linus.myrestaurant;
+package com.linus.myrestaurant.network;
+
+import com.linus.myrestaurant.YelpApi;
 
 import java.io.IOException;
 

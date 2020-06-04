@@ -1,5 +1,6 @@
-package com.linus.myrestaurant;
+package com.linus.myrestaurant.network;
 
+import com.linus.myrestaurant.Constants;
 import com.linus.myrestaurant.models.Restaurant;
 
 import org.json.JSONArray;

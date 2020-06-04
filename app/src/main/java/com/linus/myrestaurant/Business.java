@@ -1,11 +1,14 @@
-
 package com.linus.myrestaurant;
 
+import java.io.Serializable;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Business {
+import org.parceler.Parcel;
+
+@Parcel
+public class Business implements Serializable {
 
     @SerializedName("rating")
     @Expose
@@ -53,30 +56,31 @@ public class Business {
     @Expose
     private List<String> transactions = null;
 
+
     /**
      * No args constructor for use in serialization
-     * 
+     *
      */
     public Business() {
     }
 
     /**
-     * 
-     * @param distance
-     * @param rating
-     * @param coordinates
+     *
      * @param transactions
-     * @param url
-     * @param isClosed
      * @param phone
-     * @param reviewCount
-     * @param price
-     * @param imageUrl
-     * @param name
-     * @param alias
      * @param location
+     * @param alias
+     * @param imageUrl
+     * @param url
      * @param id
+     * @param distance
+     * @param price
+     * @param reviewCount
+     * @param name
      * @param categories
+     * @param rating
+     * @param isClosed
+     * @param coordinates
      */
     public Business(Double rating, String price, String phone, String id, String alias, Boolean isClosed, List<Category> categories, Integer reviewCount, String name, String url, Coordinates coordinates, String imageUrl, Location location, Double distance, List<String> transactions) {
         super();
@@ -96,7 +100,6 @@ public class Business {
         this.distance = distance;
         this.transactions = transactions;
     }
-
     public Double getRating() {
         return rating;
     }
@@ -216,5 +219,4 @@ public class Business {
     public void setTransactions(List<String> transactions) {
         this.transactions = transactions;
     }
-
 }

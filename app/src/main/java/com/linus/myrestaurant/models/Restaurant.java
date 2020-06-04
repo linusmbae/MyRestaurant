@@ -1,17 +1,23 @@
 package com.linus.myrestaurant.models;
 
+import org.parceler.Parcel;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Restaurant {
-    private String mName;
-    private String mPhone;
-    private String mWebsite;
-    private double mRating;
-    private String mImageUrl;
-    private ArrayList<String> mAddress = new ArrayList<>();
-    private double mLatitude;
-    private double mLongitude;
-    private ArrayList<String> mCategories = new ArrayList<>();
+@Parcel
+public class Restaurant implements Serializable {
+    public String mName;
+    public String mPhone;
+    public String mWebsite;
+    public double mRating;
+    public String mImageUrl;
+    public ArrayList<String> mAddress = new ArrayList<>();
+    public double mLatitude;
+    public double mLongitude;
+    public ArrayList<String> mCategories = new ArrayList<>();
+
+    public Restaurant(){}
 
     public Restaurant(String name, String phone, String website, double rating, String imageUrl, ArrayList<String> address, double latitude, double longitude, ArrayList<String> categories) {
         this.mName = name;

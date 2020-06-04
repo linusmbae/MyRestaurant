@@ -4,7 +4,12 @@ package com.linus.myrestaurant;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Location {
+import org.parceler.Parcel;
+
+import java.io.Serializable;
+
+@Parcel
+public class Location implements Serializable {
 
     @SerializedName("city")
     @Expose
