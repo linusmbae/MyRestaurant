@@ -4,102 +4,103 @@ import org.parceler.Parcel;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 @Parcel
 public class Restaurant implements Serializable {
-    public String mName;
-    public String mPhone;
-    public String mWebsite;
-    public double mRating;
-    public String mImageUrl;
-    public ArrayList<String> mAddress = new ArrayList<>();
-    public double mLatitude;
-    public double mLongitude;
-    public ArrayList<String> mCategories = new ArrayList<>();
+    public String name;
+    public String phone;
+    public String website;
+    public double rating;
+    public String imageUrl;
+    public List<String> address = new ArrayList<>();
+    public double latitude;
+    public double longitude;
+    public List<String> categories = new ArrayList<>();
 
     public Restaurant(){}
 
     public Restaurant(String name, String phone, String website, double rating, String imageUrl, ArrayList<String> address, double latitude, double longitude, ArrayList<String> categories) {
-        this.mName = name;
-        this.mPhone = phone;
-        this.mWebsite = website;
-        this.mRating =rating;
-        this.mImageUrl = imageUrl;
-        this.mAddress = address;
-        this.mLatitude = latitude;
-        this.mLongitude = longitude;
-        this.mCategories = categories;
+        this.name = name;
+        this.phone = phone;
+        this.website = website;
+        this.rating =rating;
+        this.imageUrl = imageUrl;
+        this.address = address;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.categories = categories;
     }
 
-    public String getmName() {
-        return mName;
+    public String getName() {
+        return name;
     }
 
-    public void setmName(String mName) {
-        this.mName = mName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getmPhone() {
-        return mPhone;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setmPhone(String mPhone) {
-        this.mPhone = mPhone;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
-    public String getmWebsite() {
-        return mWebsite;
+    public String getWebsite() {
+        return website;
     }
 
-    public void setmWebsite(String mWebsite) {
-        this.mWebsite = mWebsite;
+    public void setWebsite(String website) {
+        this.website = website;
     }
 
-    public double getmRating() {
-        return mRating;
+    public double getRating() {
+        return rating;
     }
 
-    public void setmRating(double mRating) {
-        this.mRating = mRating;
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 
-    public String getmImageUrl() {
-        return mImageUrl;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setmImageUrl(String mImageUrl) {
-        this.mImageUrl = mImageUrl;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
-    public ArrayList<String> getmAddress() {
-        return mAddress;
+    public List<String> getAddress() {
+        return address;
     }
 
-    public void setmAddress(ArrayList<String> mAddress) {
-        this.mAddress = mAddress;
+    public void setAddress(List<String> address) {
+        this.address = address;
     }
 
-    public double getmLatitude() {
-        return mLatitude;
+    public double getLatitude() {
+        return latitude;
     }
 
-    public void setmLatitude(double mLatitude) {
-        this.mLatitude = mLatitude;
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
     }
 
-    public double getmLongitude() {
-        return mLongitude;
+    public double getLongitude() {
+        return longitude;
     }
 
-    public void setmLongitude(double mLongitude) {
-        this.mLongitude = mLongitude;
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
-    public ArrayList<String> getmCategories() {
-        return mCategories;
+    public List<String> getCategories() {
+        return categories;
     }
 
-    public void setmCategories(ArrayList<String> mCategories) {
-        this.mCategories = mCategories;
+    public void setCategories(List<String> categories) {
+        this.categories = categories;
     }
 }
