@@ -17,6 +17,7 @@ public class Restaurant implements Serializable {
     public double latitude;
     public double longitude;
     public List<String> categories = new ArrayList<>();
+    private String pushId;
 
     public Restaurant(){}
 
@@ -102,5 +103,13 @@ public class Restaurant implements Serializable {
 
     public void setCategories(List<String> categories) {
         this.categories = categories;
+    }
+
+    public String getPushId() {
+        return pushId;
+    }
+
+    public void setPushId(String pushId) {
+        this.pushId = pushId;
     }
 }

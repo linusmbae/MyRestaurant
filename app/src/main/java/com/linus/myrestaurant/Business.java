@@ -56,6 +56,8 @@ public class Business implements Serializable {
     @Expose
     public List<String> transactions = null;
 
+    private String pushId;
+
 
     /**
      * No args constructor for use in serialization
@@ -218,5 +220,13 @@ public class Business implements Serializable {
 
     public void setTransactions(List<String> transactions) {
         this.transactions = transactions;
+    }
+
+    public String getPushId() {
+        return pushId;
+    }
+
+    public void setPushId(String pushId) {
+        this.pushId = pushId;
     }
 }
